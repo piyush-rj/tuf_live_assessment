@@ -1,0 +1,1 @@
+CHAT_GPT_CHAT_LINK=https://chatgpt.com/share/69e63ed5-bee8-83e8-bac1-96a0e4f039c3

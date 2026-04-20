@@ -13,7 +13,6 @@ export default function EnrichmentCard() {
   return (
     <div className="relative w-full h-1/2 bg-[#F6E7C9] rounded-2xl p-6 overflow-hidden">
       
-      {/* TEXT */}
       <div className="max-w-[75%]">
         <h2 className="text-[18px] font-bold text-amber-900">
           Automatic enrichment
@@ -25,19 +24,6 @@ export default function EnrichmentCard() {
         </p>
       </div>
 
-      {/* FLOATING AVATAR */}
-      <div className="absolute -right-2 top-19 flex items-center z-10 scale-[1.05]">
-        <div className="h-16 w-16 rounded-full bg-white shadow-md -ml-2 border border-white shrink-0">
-          {/* map placeholder */}
-        </div>
-        <div className="h-15 w-15 rounded-full bg-white shadow-md flex items-center justify-center z-10 shrink-0">
-          <div className="h-9 w-8 bg-blue-950 rounded-lg flex items-center justify-center">
-            <div className="w-3 h-3 border-l-2 border-white border-r-2 rounded-sm" />
-          </div>
-        </div>
-
-      </div>
-
       <div className="absolute -bottom-8 left-4 right-4 bg-white rounded-t-xl p-4">
         
         <div className="flex items-center gap-2 text-purple-500 text-sm font-semibold mb-3">
@@ -45,7 +31,6 @@ export default function EnrichmentCard() {
           Enriched with AI
         </div>
 
-        {/* GRID */}
         <div className="grid grid-cols-2 gap-y-3 gap-x-12 text-[10px]">
           
           <Row icon={<FiGlobe />} label="Website" value="intercom.io" />

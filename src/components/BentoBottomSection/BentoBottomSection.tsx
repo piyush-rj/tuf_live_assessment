@@ -1,4 +1,5 @@
 import EnrichmentCard from "./EnrichmentCard";
+import FloatingAvatars from "./FloatingAvatars";
 import InsightsCard from "./InsightsCard";
 import QualifiedSignupCard from "./QualifiedSignUpCard";
 import StatusTicker from "./StatusTicker";
@@ -26,6 +27,7 @@ export default function BentoBottomSection() {
             <div className="h-full w-1/2 rounded-2xl pt-5 flex flex-col gap-4 pb-10 shrink-0">
             {/* yellow card */}
                <EnrichmentCard/> 
+               <FloatingAvatars/>
                 <InsightsCard />
             </div>
             <StatusTicker

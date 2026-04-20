@@ -9,7 +9,7 @@ export default function BentoTopSection() {
         We automatically generate reports for each of your customers
       </div>
 
-      <div className="absolute right-6 bottom-0 w-[58%] h-[210px] bg-white/60 backdrop-blur-sm rounded-tl-xl p-3 flex gap-4 shadow-xs shadow-black/5 ring-1 ring-black/3">
+      <div className="absolute right-0 bottom-0 w-[60%] h-[210px] bg-white/60 backdrop-blur-sm rounded-tl-xl p-3 flex gap-4 shadow-xs shadow-black/5 ring-1 ring-black/3">
 
         <div className="w-1/2 h-full bg-white rounded-lg shadow-sm ring-1 ring-black/5 flex flex-col overflow-hidden">
           

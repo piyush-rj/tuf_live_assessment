@@ -26,8 +26,8 @@ export default function EnrichmentCard() {
       </div>
 
       {/* FLOATING AVATAR */}
-      <div className="absolute -right-2 top-19 flex items-center z-10">
-        <div className="h-15 w-15 rounded-full bg-white shadow-md -ml-3 border border-white shrink-0">
+      <div className="absolute -right-2 top-19 flex items-center z-10 scale-[1.05]">
+        <div className="h-16 w-16 rounded-full bg-white shadow-md -ml-2 border border-white shrink-0">
           {/* map placeholder */}
         </div>
         <div className="h-15 w-15 rounded-full bg-white shadow-md flex items-center justify-center z-10 shrink-0">

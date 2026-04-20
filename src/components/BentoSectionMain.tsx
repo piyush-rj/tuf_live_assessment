@@ -1,5 +1,5 @@
-import BentoBottomSection from "./BentoBottomSection";
-import BentoTopSection from "./BentoTopSection";
+import BentoBottomSection from "./BentoBottomSection/BentoBottomSection";
+import BentoTopSection from "./BentoTopSection/BentoTopSection";
 
 export default function BentoSectionMain() {
     return (

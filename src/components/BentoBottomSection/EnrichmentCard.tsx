@@ -13,7 +13,7 @@ export default function EnrichmentCard() {
   return (
     <div className="relative w-full h-1/2 bg-[#F6E7C9] rounded-2xl p-6 overflow-hidden">
       
-      <div className="max-w-[75%]">
+      <div className="max-w-[75%] -space-y-1">
         <h2 className="text-[18px] font-bold text-amber-900">
           Automatic enrichment
         </h2>

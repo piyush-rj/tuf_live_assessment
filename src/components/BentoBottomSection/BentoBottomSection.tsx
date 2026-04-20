@@ -10,7 +10,7 @@ export default function BentoBottomSection() {
             {/* bento left section */}
             <div className="bg-pink-100 h-[78%] w-1/2 rounded-2xl px-10 py-8 flex flex-col overflow-hidden relative">
             <div className="rounded-r-3xl bg-white h-15 w-2 absolute left-0 top-[52%]"/>
-                <div className="h-[22%] w-full flex flex-col gap-y-1">
+                <div className="h-[22%] w-full flex flex-col">
                     <div className="font-bold text-[18px] text-pink-800">
                         Celebrate milestones
                     </div>
@@ -18,7 +18,7 @@ export default function BentoBottomSection() {
                         Instant alerts and weekly digests to keep your team aligned and celebrate wins
                     </div>
                 </div>
-                <div className="flex-1 flex justify-center items-start -mt-10">
+                <div className="flex-1 flex justify-center items-start -mt-9">
                     <QualifiedSignupCard/>
                 </div>
             </div>
